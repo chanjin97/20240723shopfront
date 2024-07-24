@@ -1,7 +1,7 @@
-import { lazy, Suspense } from "react";
+import { Suspense, lazy } from "react";
 import { Navigate } from "react-router-dom";
 
-const Loading = <div className="bg-sb-500">Loading.....</div>;
+const Loading = <div className="bg-red-500">Loading.....</div>;
 const ProductList = lazy(() => import("../layouts/pages/product/ListPage"));
 const ProductAdd = lazy(() => import("../layouts/pages/product/AddPage"));
 
