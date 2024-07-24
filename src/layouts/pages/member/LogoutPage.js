@@ -1,16 +1,15 @@
 import React from "react";
 import BasicMenu from "../../../components/menus/BasicMenu";
-import LoginComponent from "../../../components/member/LoginComponent";
 
-function LoginPage() {
+function LogoutPage() {
   return (
     <div>
       <div className="container mx-auto">
         <BasicMenu />
       </div>
-      <LoginComponent />
+      logout
     </div>
   );
 }
 
-export default LoginPage;
+export default LogoutPage;
