@@ -31,11 +31,11 @@ function BasicMenu() {
         )}
 
         {/* 이메일이 있다면 */}
-        {loginState.email ? (
+        {/* {loginState.email ? (
           <Link to="/member/logout">LOGOUT</Link>
         ) : (
           <Link to="/member/login">LOGIN</Link>
-        )}
+        )} */}
       </div>
     </div>
   );
